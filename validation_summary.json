@@ -1,0 +1,60 @@
+{
+  "collection_date": "2026-09-28",
+  "rows": 100,
+  "columns": 15,
+  "companies": 90,
+  "source_pages": 28,
+  "checks": {
+    "at_least_100_records": true,
+    "exact_required_columns": true,
+    "no_empty_required_cells": true,
+    "sequential_text_ids": true,
+    "no_duplicate_company_title_city": true,
+    "source_is_BOSS": true,
+    "company_is_not_platform": true,
+    "collection_date_matches": true,
+    "five_cities_covered": true,
+    "eight_industries_covered": true,
+    "role_targets_met": true,
+    "coding_ids_match": true,
+    "ai_flag_term_summary_consistency": true,
+    "salary_format": true,
+    "BOSS_source_urls": true,
+    "source_manifest_complete": true
+  },
+  "all_checks_pass": true,
+  "role_counts": {
+    "数据分析师": 40,
+    "商业分析师": 20,
+    "BI分析师": 20,
+    "经营分析": 20
+  },
+  "city_counts": {
+    "北京": 23,
+    "深圳": 21,
+    "杭州": 19,
+    "广州": 18,
+    "上海": 19
+  },
+  "industry_counts": {
+    "人工智能": 3,
+    "制造业": 11,
+    "互联网/科技": 44,
+    "电子商务": 9,
+    "物流": 6,
+    "消费品": 14,
+    "新能源": 5,
+    "金融科技": 8
+  },
+  "ai_counts": {
+    "1": 10,
+    "0": 90
+  },
+  "limitations": [
+    "Public indexed JD excerpts, not complete JDs.",
+    "AI=0 means no mention observed in the excerpt.",
+    "Posting dates and active vacancy status are unverified.",
+    "Independent human source review remains pending.",
+    "The GitHub URL and repository upload must be completed by the team."
+  ]
+}
